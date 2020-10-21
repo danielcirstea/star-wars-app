@@ -1,0 +1,32 @@
+{
+  "name": "star-wars-app",
+  "version": "1.0.0",
+  "description": "Application for listing all star wars characters",
+  "main": "server.js",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "react-router-dom": "^5.2.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install:all": "npm install && npm run install:client",
+    "install:client": "cd client && npm install",
+    "start": "node server.js",
+    "start:app": "cd client && npm run start",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcirstea/star-wars-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielcirstea/star-wars-app/issues"
+  },
+  "homepage": "https://github.com/danielcirstea/star-wars-app#readme"
+}
